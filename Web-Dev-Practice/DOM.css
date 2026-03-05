@@ -150,3 +150,54 @@ ul{
 input{
     height: 30px;
 } */
+
+
+
+/* 
+Project NO : 11 CREATE A FORM VALIDATOR.
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f2f2f2;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+width:300px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:10px;
+margin-top:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:10px;
+margin-top:20px;
+border:none;
+background:#007bff;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+.error{
+color:red;
+font-size:14px;
+text-align:left;
+margin-top:5px;
+} */
