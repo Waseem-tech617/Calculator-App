@@ -109,11 +109,17 @@
 // })
 
 
-// //  Project NO : 10 COUNT CHARCTERS.
+// // //  Project NO : 10 COUNT CHARCTERS.
 // let input=document.querySelector("input");
 // let h1=document.querySelector("span");
 // input.addEventListener("input",function(dets){
-//    h1.textContent=input.value.length;
+// let left=20-input.value.length;
+//     h1.textContent=left;
+//     if(left<0){
+//        h1.style.color="red";
+//     }else{
+//         h1.style.color="black";
+//     }
 // });
 
 
