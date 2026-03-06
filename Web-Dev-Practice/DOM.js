@@ -153,3 +153,13 @@ form.addEventListener("submit",function(dets){
  
 });
 
+
+//  Project NO : 12 USE OF SETITERVAL AND CLEARINTERVAL TO CREATE A COUNTER FROM REVERSE .
+let count=10;
+let time=setInterval(function(){
+    if(count>=0){
+    console.log(count);
+    count--;
+    }
+    else clearInterval(time);
+},1000);
