@@ -163,3 +163,16 @@ let time=setInterval(function(){
     }
     else clearInterval(time);
 },1000);
+
+
+//  Project NO : 13 USE OF SETITERVAL AND CLEARINTERVAL TO CREATE A COUNTER PROGRESS BAR .
+let progress=document.querySelector("#progress-bar");
+let p=document.querySelector("p");
+let count=0;
+let interval=setInterval(function(){
+if(count<=99){
+   count++;
+   progress.style.width=count+"%";
+   p.textContent=count+"%";
+}else clearInterval(interval);
+},60);
