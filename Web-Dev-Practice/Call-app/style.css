@@ -16,21 +16,28 @@ body,html{
     background-color:rgb(52, 51, 51);
     gap: 15px;
 }
+
+
+
+                                    /* left side */
 .btns{
     display: flex;
     flex-direction:column ;
     gap: 20px;
+  
 }
 
 .btn{
-    background-color:rgb(52, 51, 51);
+     background-color:rgb(52, 51, 51);
     color: white;
     border-width: 1px;
     border: 1px solid white;
     border-radius: 20px;
-    height:30px ;
-    width: 30px;  
+    height:30px;
+    width: 30px; 
 }
+
+                                  /* Note Cards */
 .cards{
    position: relative;
    height: 200px;
@@ -82,7 +89,7 @@ body,html{
     object-fit: cover;
     display: block;
 }
-.Home{
+.home{
     margin-top: 3px;
 }
 .city{
@@ -110,6 +117,8 @@ body,html{
     background-color:black;
    
 }
+
+                                /* right side */
 .colors{
     display: flex;
     flex-direction: column;
@@ -142,3 +151,44 @@ body,html{
     width: 30px;  
 }
 
+
+                         /* note form */
+.Note-form{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    height: 450px;
+    width: 400px;
+    background-color:white;
+    padding: 15px;
+    border-radius:10px;
+}
+.close-btn{
+    margin-top: 10px;
+}
+
+.submit-btn{
+    margin-top: 10px;
+}
+
+.image-url{
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home-town{
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+.purpose{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Catagory{
+       margin-top: 10px;
+    margin-bottom: 10px;
+}
