@@ -21,7 +21,7 @@
 // console.log(nstr);
 
 
-// // 2️⃣ Count Words That Start and End with Same Letter.
+// // 2️⃣ Count Words That Start and End with  Letter.
 
 // let sentence="Anna and Bob are amazing";
 // let words=sentence.split(" ");
