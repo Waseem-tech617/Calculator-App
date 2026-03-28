@@ -16,10 +16,6 @@ Array.from(buttons).forEach(button => {
   button.addEventListener("click", function (e) {
 
     let value = e.target.innerHTML;
-    // let operators = ["*", "-", "+", "/", "%"];
-    // let lastval = string[string.length - 1];
-
-
     if (e.target.innerHTML == "DEL") {
       string = string.substring(0, string.length - 1);
       display.value = string;
